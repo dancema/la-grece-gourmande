@@ -47,6 +47,7 @@ p {
 .images-food {
   display: flex;
   justify-content: center;
+  margin-bottom: 10px;
 
   div {
     margin: 10px 20px
@@ -105,4 +106,28 @@ p {
 #luna {
   margin-top: 30px;
   border-radius: 5px;
+}
+
+
+
+.occasions {
+  padding-bottom: 10px;
+
+  div {
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;
+
+  }
+
+  i {
+    color: #F4F4F4;
+    font-size: 40px;
+    padding: 30px;
+    width: 95px;
+  }
+}
+
+#occas {
+  padding-bottom: 20px;
 }
