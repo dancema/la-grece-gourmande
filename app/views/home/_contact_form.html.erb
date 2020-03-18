@@ -1,0 +1,25 @@
+
+<%= form_for @contact, url: home_index_path, remote: true do |f| %>
+
+        <div class="mb-3">
+          <h3>Nom</h2>
+          <%= f.text_field  :name, required: true, class: "contact-form-text-area" %></br>
+        </div>
+
+        <div class="mb-3">
+          <h3>Votre email</h2>
+          <%= f.text_field :email, required: true, class: "contact-form-text-area" %></br>
+        </div>
+
+        <div class="mb-3">
+          <h3>Votre message</h3>
+          <%= f.text_area :message, rows: 8, cols: 40, required: true, class: "contact-form-text-area",
+                            placeholder: "Décrivez ce qui vous plairais !"%></br>
+        </div>
+
+      <%= f.submit 'Envoyer message', class: 'btn btn-primary mb-3' %>
+
+
+  <% end %>
+  <div id="flash-message">
+  </div>

@@ -16,6 +16,7 @@ gem 'uglifier'
 gem 'webpacker'
 gem 'cloudinary', '~> 1.12.0'
 gem 'mail_form'
+gem 'jquery-rails', '~> 4.1', '>= 4.1.1'
 gem 'dotenv-rails', groups: [:development, :test]
 
 group :development do
