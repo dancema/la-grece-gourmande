@@ -77,7 +77,7 @@ p {
   justify-content: center;
 
   div {
-    margin: 10px 20px
+    margin: 10px 20px;
   }
 
   img {
@@ -130,4 +130,21 @@ p {
 
 #occas {
   padding-bottom: 20px;
+  img {
+    border-radius: 5px;
+  }
+}
+
+#contact {
+  i {
+    color:white;
+    margin-bottom: 10px;
+  }
+}
+
+.details {
+  font-size: 18px;
+  h4 {
+    font-size: 18px;
+  }
 }
